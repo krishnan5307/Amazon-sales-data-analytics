@@ -38,7 +38,8 @@ Report creation -
 
 publishing report to powerbi service -
 
-![publishing_to_powerbi_2024-06-05 220716](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/b856a2f0-eab6-42cf-814d-f85d4157b8e1)
+![image](https://github.com/user-attachments/assets/6965f0b5-38c5-4fc6-970a-3e62e58fabde)
+
 
 powerbi service - 
 
