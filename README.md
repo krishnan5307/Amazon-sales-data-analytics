@@ -51,8 +51,6 @@ pinning and creating dashboards in powerbi service -
 ![image](https://github.com/user-attachments/assets/dc2aa48e-9150-4fd8-89ae-979a38d2df5d)
 
 
-![pin_to_dashboard_2024-06-05 221854](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/acdcd0dc-5857-4f26-a333-77c90e8c2047)
-
 final dashboard in powerbi service -
 
 ![dashboard_powerbi_service_2024-06-05 222412](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/dd6c4430-da49-46bf-9e6a-4891d058a6a2)
