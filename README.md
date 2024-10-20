@@ -43,9 +43,13 @@ publishing report to powerbi service -
 
 powerbi service - 
 
-![powerbi_service_2024-06-05 221809](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/af6bc418-6ce5-42c1-8b9e-77c878e9e733)
+![image](https://github.com/user-attachments/assets/bc6cea57-38e0-4f6d-a956-38e9fbcd2a26)
+
 
 pinning and creating dashboards in powerbi service - 
+
+![image](https://github.com/user-attachments/assets/dc2aa48e-9150-4fd8-89ae-979a38d2df5d)
+
 
 ![pin_to_dashboard_2024-06-05 221854](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/acdcd0dc-5857-4f26-a333-77c90e8c2047)
 
