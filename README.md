@@ -25,10 +25,14 @@ Sales data analysis of 100 records as per dataset given
 Amazon food analysis- 
 
 ![image](https://user-images.githubusercontent.com/69358581/211725873-eee9c9f8-ad27-4259-9b35-8ee86a767883.png)
+![image](https://github.com/user-attachments/assets/b3846411-407c-40a8-bab8-a0974ba3718d)
+
 
 Data modelling -
 
 ![image](https://user-images.githubusercontent.com/69358581/211725999-78cd754f-ac79-4f0b-aca1-3a64046b2f15.png)
+![image](https://github.com/user-attachments/assets/d6ab2fb5-34db-4545-9694-4dbe4b749989)
+
 
 Report creation - 
 
