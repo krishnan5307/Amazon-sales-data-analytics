@@ -20,6 +20,7 @@ Do your own research and come up with your findings.
 Sales data analysis of 100 records as per dataset given
 
 ![image](https://user-images.githubusercontent.com/69358581/211725539-8990f5dc-db34-4169-960c-dd6c0bb22fea.png)
+![image](https://github.com/user-attachments/assets/05d39b12-580d-4e41-af6f-353d4930f9b3)
 
 Amazon food analysis- 
 
