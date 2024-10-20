@@ -19,26 +19,22 @@ Do your own research and come up with your findings.
 
 Sales data analysis of 100 records as per dataset given
 
-![image](https://user-images.githubusercontent.com/69358581/211725539-8990f5dc-db34-4169-960c-dd6c0bb22fea.png)
 ![image](https://github.com/user-attachments/assets/05d39b12-580d-4e41-af6f-353d4930f9b3)
 
 Amazon food analysis- 
 
-![image](https://user-images.githubusercontent.com/69358581/211725873-eee9c9f8-ad27-4259-9b35-8ee86a767883.png)
 ![image](https://github.com/user-attachments/assets/b3846411-407c-40a8-bab8-a0974ba3718d)
 
 
 Data modelling -
 
-![image](https://user-images.githubusercontent.com/69358581/211725999-78cd754f-ac79-4f0b-aca1-3a64046b2f15.png)
 ![image](https://github.com/user-attachments/assets/d6ab2fb5-34db-4545-9694-4dbe4b749989)
 
 
 Report creation - 
 
-![amazon_sales_data_report_2024-06-06 084425](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/34e3f617-4801-407f-b030-12bc6b568737)
+![image](https://github.com/user-attachments/assets/42adfdf5-6ea8-4d3b-87da-04e3ab7168f7)
 
-![amazon food sales report_2024-06-06 084251](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/db796dff-1022-4352-b646-0a65215cf40d)
 
 publishing report to powerbi service -
 
