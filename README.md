@@ -19,33 +19,37 @@ Do your own research and come up with your findings.
 
 Sales data analysis of 100 records as per dataset given
 
-![image](https://user-images.githubusercontent.com/69358581/211725539-8990f5dc-db34-4169-960c-dd6c0bb22fea.png)
+![image](https://github.com/user-attachments/assets/05d39b12-580d-4e41-af6f-353d4930f9b3)
 
 Amazon food analysis- 
 
-![image](https://user-images.githubusercontent.com/69358581/211725873-eee9c9f8-ad27-4259-9b35-8ee86a767883.png)
+![image](https://github.com/user-attachments/assets/b3846411-407c-40a8-bab8-a0974ba3718d)
+
 
 Data modelling -
 
-![image](https://user-images.githubusercontent.com/69358581/211725999-78cd754f-ac79-4f0b-aca1-3a64046b2f15.png)
+![image](https://github.com/user-attachments/assets/d6ab2fb5-34db-4545-9694-4dbe4b749989)
+
 
 Report creation - 
 
-![amazon_sales_data_report_2024-06-06 084425](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/34e3f617-4801-407f-b030-12bc6b568737)
+![image](https://github.com/user-attachments/assets/42adfdf5-6ea8-4d3b-87da-04e3ab7168f7)
 
-![amazon food sales report_2024-06-06 084251](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/db796dff-1022-4352-b646-0a65215cf40d)
 
 publishing report to powerbi service -
 
-![publishing_to_powerbi_2024-06-05 220716](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/b856a2f0-eab6-42cf-814d-f85d4157b8e1)
+![image](https://github.com/user-attachments/assets/6965f0b5-38c5-4fc6-970a-3e62e58fabde)
+
 
 powerbi service - 
 
-![powerbi_service_2024-06-05 221809](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/af6bc418-6ce5-42c1-8b9e-77c878e9e733)
+![image](https://github.com/user-attachments/assets/bc6cea57-38e0-4f6d-a956-38e9fbcd2a26)
+
 
 pinning and creating dashboards in powerbi service - 
 
-![pin_to_dashboard_2024-06-05 221854](https://github.com/krishnan5307/Amazon-sales-data-analysis--Business-intelligence/assets/69358581/acdcd0dc-5857-4f26-a333-77c90e8c2047)
+![image](https://github.com/user-attachments/assets/dc2aa48e-9150-4fd8-89ae-979a38d2df5d)
+
 
 final dashboard in powerbi service -
 
