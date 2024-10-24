@@ -3,33 +3,33 @@ Here's a breakdown of key steps in Power BI:
 
 1. Data Import (Data Preparation):
 
-Import data from various sources (Excel, SQL databases, cloud services, etc.).
-Clean and transform the data using Power Query Editor if necessary.
+-Import data from various sources (Excel, SQL databases, cloud services, etc.).
+-Clean and transform the data using Power Query Editor if necessary.
 
 
 2. Data Modeling (Schema Setup):
 
-Set up the schema by defining relationships between tables (e.g., one-to-one, one-to-many, or many-to-many).
-Create tables (eg: date tables etc), set data types, and define primary/foreign keys. 
-Build hierarchies, calculated columns, and measures.
-Ensure the model reflects the correct structure for the analysis, aligning dimension tables with fact tables using flat or star or snowflake schemas relevant for the table
+-Set up the schema by defining relationships between tables (e.g., one-to-one, one-to-many, or many-to-many).
+-Create tables (eg: date tables, currency tables etc), set data types, and define primary/foreign keys. 
+Build hierarchies (eg: date column- year, month, day etc), calculated columns, and measures.
+-Ensure the model reflects the correct structure for the analysis, aligning dimension tables with fact tables using flat or star or snowflake schemas relevant for the table
 
 
 3. Report Building (Visualization):
 
-Use the data model to create visuals, such as charts, tables, and graphs.
-Apply filters, slicers, and conditional formatting to enhance insights.
+-Use the data model to create visuals, such as charts, tables, and graphs.
+-Apply filters, slicers, and conditional formatting to enhance insights.
 
 
 4. DAX Calculations (Optional but Common in Modeling):
 
-Define measures and calculated columns using DAX (Data Analysis Expressions) for custom calculations.
+-Define measures and calculated columns using DAX (Data Analysis Expressions) for custom calculations.
 
 
 5. Publishing and Sharing:
 
-Publish the report to Power BI Service for sharing and collaboration.
-Schema setup is crucial in the Data Modeling phase, as it ensures data is structured for accurate analysis and reporting.
+-Publish the report to Power BI Service for sharing and collaboration.
+-Schema setup is crucial in the Data Modeling phase, as it ensures data is structured for accurate analysis and reporting.
 
 
 
@@ -37,7 +37,19 @@ DATA PREPARATION (ETL for warehousing)
 
 
 1. Importing data
-2. cleaning and transforming data
+2. cleaning and transforming data- 
+  
+
+-Data profiling to find errors, empty records etc
+
+-removing empty records
+
+-replacing errors- eg: null records with mean or median depending on categorical or numerical column
+
+-Removing duplicates
+
+-Formatting - data types- eg: to date tym, currency, whole number, decimals, integer, text etc
+           - helps while performing dax operation for numerical columns
 
 
 
@@ -59,7 +71,8 @@ SCHEMA detailed info:
 schema is a logical blueprint that defines the structure, organization, and relationships of tables. 
 
 An analyst’s role is to facilitate querying and reporting by establishing meaningful and well-defined relationships between tables. By understanding different schema types, data analysts can choose the most suitable schema design for their specific use cases.
-n analyst might also need to ensure that their schema is normalized. Normalization refers to the process of organizing and structuring data in a way that eliminates redundant data and improves data integrity. It involves breaking down larger tables into smaller, more focused tables and establishing relationships between them.
+
+Data nalyst might also need to ensure that their schema is normalized. Normalization refers to the process of organizing and structuring data in a way that eliminates redundant data and improves data integrity. It involves breaking down larger tables into smaller, more focused tables and establishing relationships between them.
 
 Schema  involves organizing data sources defining relationships, creating structured model for reporting and analysis.
 
