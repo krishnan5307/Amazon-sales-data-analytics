@@ -33,6 +33,8 @@ Build hierarchies (eg: date column- year, month, day etc), calculated columns, a
 
 
 
+
+
 DATA PREPARATION (ETL for warehousing)
 
 
@@ -57,7 +59,11 @@ DATA PREPARATION (ETL for warehousing)
 
 
 
+
+
 Schema setup in Power BI typically falls under the "Data Modeling" step in the overall Power BI workflow. This step involves organizing your data sources, defining relationships, and creating a structured model for reporting and analysis.
+
+
 
 
 
@@ -128,6 +134,10 @@ Let’s review the components of various schema using Adventure Works’ schema 
 
 
 
+
+
+
+Things to know while doing data modelling: 
 
 
 
