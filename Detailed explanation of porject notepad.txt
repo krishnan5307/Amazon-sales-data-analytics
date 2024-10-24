@@ -7,12 +7,12 @@ Here's a breakdown of key steps in Power BI:
 -Clean and transform the data using Power Query Editor if necessary.
 
 
-2. Data Modeling (Schema Setup):
+2. Data Modeling (Schema Setup and Dax):
 
--Set up the SCHEMA by defining relationships between tables (e.g., one-to-one, one-to-many, or many-to-many).
 -Creating tables (eg: date tables, currency tables etc, other dimensional tables), 
- set data types, and define primary/foreign keys(unique identifiers) to establish   relationships btw table using cardinality and cross filter function. 
-Build hierarchies (eg: date column- year, month, day etc), calculated columns, and measures.
+ set data types, and define primary/foreign keys(unique identifiers) to establish   relationships btw table using cardinality (one-to-one, one-to-many, or many-to-many) and cross filter function (single directional or bi-directional for data flow from one table to other). 
+-configuring table and column properties under right and top section in model view for tables
+-Build hierarchies (eg: date column- year, month, day etc), calculated columns, and measures.
 -Ensure the model reflects the correct structure for the analysis, aligning dimension tables with fact tables using flat or star or snowflake schemas relevant for the table
 
 
@@ -132,6 +132,41 @@ Products: Stores data about various products, categories, and subcategories with
 Salesperson: Records data about salespersons, employee ID, hiring data, and designation.
 
 Let’s review the components of various schema using Adventure Works’ schema as our example 
+
+
+
+
+Configuring table and column properties in Power BI under the "Data Modeling" section of the Power BI workflow is crucial step where you can define how your data is organized and how it behaves within your model. Here’s a breakdown of the relevant activities:
+
+Data Modeling Section
+Table Properties:
+
+You can configure table-level properties such as:
+Table Name: Renaming tables for clarity.
+Storage Mode: Setting how data is stored (Import, DirectQuery, or Dual).
+Data Category: Assigning data categories (e.g., Web URL, Image URL) for specific use cases.
+Summary Table: Setting a table as a summary table for better performance.
+Column Properties:
+
+Configuring properties at the column level, including:
+Column Name: Renaming columns for clarity in reports and visualizations.
+Data Type: Specifying the type of data stored (e.g., text, number, date) to ensure accurate processing.
+Data Category: Like tables, columns can also be assigned categories to improve functionality (e.g., for geographic data).
+Default Summarization: Setting the default aggregation type for measures (e.g., sum, average).
+Formatting: Applying formatting options such as decimal places, currency symbols, or date formats.
+How to Access These Properties
+In Power BI Desktop, you can access and configure these properties through the Model View:
+Model View: Click on the "Model" icon on the left sidebar to enter the model view.
+Selecting a Table: Click on the table you want to configure.
+Table Properties Pane: The properties pane on the right side will show the options available for the selected table.
+Column Selection: Click on individual columns within the table to see and modify their properties.
+Importance
+Configuring these properties is essential for:
+
+Ensuring data integrity and accuracy.
+Optimizing performance.
+Enhancing the user experience in reports and dashboards.
+By correctly setting up table and column properties, you lay a solid foundation for your data model, enabling effective analysis and reporting in Power BI.
 
 
 
