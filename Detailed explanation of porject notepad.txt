@@ -1,0 +1,140 @@
+
+Here's a breakdown of key steps in Power BI:
+
+1. Data Import (Data Preparation):
+
+Import data from various sources (Excel, SQL databases, cloud services, etc.).
+Clean and transform the data using Power Query Editor if necessary.
+
+
+2. Data Modeling (Schema Setup):
+
+Set up the schema by defining relationships between tables (e.g., one-to-one, one-to-many, or many-to-many).
+Create tables (eg: date tables etc), set data types, and define primary/foreign keys. 
+Build hierarchies, calculated columns, and measures.
+Ensure the model reflects the correct structure for the analysis, aligning dimension tables with fact tables using flat or star or snowflake schemas relevant for the table
+
+
+3. Report Building (Visualization):
+
+Use the data model to create visuals, such as charts, tables, and graphs.
+Apply filters, slicers, and conditional formatting to enhance insights.
+
+
+4. DAX Calculations (Optional but Common in Modeling):
+
+Define measures and calculated columns using DAX (Data Analysis Expressions) for custom calculations.
+
+
+5. Publishing and Sharing:
+
+Publish the report to Power BI Service for sharing and collaboration.
+Schema setup is crucial in the Data Modeling phase, as it ensures data is structured for accurate analysis and reporting.
+
+
+
+DATA PREPARATION (ETL for warehousing)
+
+
+1. Importing data
+2. cleaning and transforming data
+
+
+
+
+
+
+
+Schema setup in Power BI typically falls under the "Data Modeling" step in the overall Power BI workflow. This step involves organizing your data sources, defining relationships, and creating a structured model for reporting and analysis.
+
+
+
+
+DATA MODELLING (SCHEMA setup)
+
+
+SCHEMA detailed info:
+
+
+schema is a logical blueprint that defines the structure, organization, and relationships of tables. 
+
+An analyst’s role is to facilitate querying and reporting by establishing meaningful and well-defined relationships between tables. By understanding different schema types, data analysts can choose the most suitable schema design for their specific use cases.
+n analyst might also need to ensure that their schema is normalized. Normalization refers to the process of organizing and structuring data in a way that eliminates redundant data and improves data integrity. It involves breaking down larger tables into smaller, more focused tables and establishing relationships between them.
+
+Schema  involves organizing data sources defining relationships, creating structured model for reporting and analysis.
+
+Flat schema overview
+A Flat schema is a simple database design where all data is stored in a single table. In this schema, each row represents a unique record, and each column represents the record’s attributes. 
+
+For example, in the Adventure Works Sales table, each row represents a sales transaction, while the various columns specify who bought the product, the date on which it was sold, and so on. Since there is only one table in the schema, you don’t need to manage relationships between different tables.
+
+Star schema overview
+A Star schema is a type of schema used in data warehousing and dimensional modeling. In this schema, a central fact table is connected to one or more dimension tables based on the common field or column in both fact and dimension tables.
+
+In the Adventure Works schema, the fact table contains quantitative data, such as sales amounts or product quantities. In contrast, the dimension tables store descriptive data, such as customer information, product details, or dates.
+
+Snowflake schema overview
+A Snowflake schema is an extension of the Star schema. In this schema, dimension tables are split into multiple related tables to reduce data redundancy and improve data integrity. This process is referred to as normalization.
+
+
+
+In the Adventure Works schema, each dimension table is connected to one or more related tables, forming a hierarchical structure that resembles a Snowflake.
+
+The importance of choosing the right schema
+Understanding schemas and the available types is crucial for effective database design and management. 
+
+The Flat schema is simple and easy to work with but may not be suitable for complex data relationships or large datasets. 
+
+The Star schema is a popular choice for dimensional modeling, offering reduced data redundancy and intuitive design. Although it may be less flexible when handling complex relationships between dimensions. 
+
+Lastly, the Snowflake schema provides greater flexibility and improved data integrity through normalizing dimension tables. However, its complexity can make it more challenging to understand and query.
+
+
+Conclusion
+Choosing the right schema depends on the specific needs and requirements of the analysis and the complexity of the data and relationships involved.
+
+By understanding the advantages and limitations of each schema type, you can make informed decisions on the best schema design for your data analysis, leading to more efficient and effective data storage and management.
+
+
+
+steps
+
+The company must design a schema with several interconnected tables to analyze and visualize its data effectively. Some of the tables in the company schema are as follows:
+
+Reseller: A table with reseller ID, contact information, and demographic data.
+
+Regions: Stores geographical location about the customers like region, country and city. 
+
+Sales: Captures transaction data like date, sale amount, transaction ID, and quantities sold.
+
+Products: Stores data about various products, categories, and subcategories with Product ID.
+
+Salesperson: Records data about salespersons, employee ID, hiring data, and designation.
+
+Let’s review the components of various schema using Adventure Works’ schema as our example 
+
+
+
+
+
+
+
+Table and column properties
+
+Table properties represents right pane and column properties represent top pane in Home tab.
+These elements help you organize, define, and transform data to optimize your analyses and visualizations.
+
+table properties- data description, summarisation, relationships, table name etc
+
+
+Column properties refer to the specific settings and characteristics associated with individual columns within a table. 
+
+These properties influence how data in columns is displayed, treated, and used for analysis and visualization. Correctly configuring these properties enhances data accuracy, visualization quality, and overall user experience. 
+
+Some common column properties are as follows:
+column description, format, column type, data category, summarisation
+
+
+
+
+
