@@ -10,7 +10,7 @@ Here's a breakdown of key steps in Power BI:
 2. Data Modeling (Schema Setup):
 
 -Set up the schema by defining relationships between tables (e.g., one-to-one, one-to-many, or many-to-many).
--Create tables (eg: date tables, currency tables etc), set data types, and define primary/foreign keys. 
+-Create tables (eg: date tables, currency tables etc), set data types, and define primary/foreign keys(unique identifiers) to establish relatonships btw table using cardinality and crossfilter function. 
 Build hierarchies (eg: date column- year, month, day etc), calculated columns, and measures.
 -Ensure the model reflects the correct structure for the analysis, aligning dimension tables with fact tables using flat or star or snowflake schemas relevant for the table
 
@@ -139,6 +139,14 @@ Let’s review the components of various schema using Adventure Works’ schema 
 
 Things to know while doing data modelling: 
 
+
+One to One relationship exist only for two dimensional table
+one to many relation exist from dimension to fact table and many to one relation exist from fact to dimension. So in both case relation filter arrow points from dimension to fact table.
+so we can access dimesion tbale from fact table and not reverse
+Many to Many relationships happen btw two fact tables and is usally used by connecting a bridge table in btw:
+ eg: fact table1: sales (sales id, customer id , amount), 
+     fact table2: promotion (promotion id, product id, discount), 
+     Bridge table: (sales id, promotion id)
 
 
 
