@@ -11,7 +11,7 @@ Here's a breakdown of key steps in Power BI:
 
 -Creating tables (eg: date tables, currency tables etc, other dimensional tables), 
  set data types, and define primary/foreign keys(unique identifiers) to establish   relationships btw table using cardinality (one-to-one, one-to-many, or many-to-many) and cross filter function (single directional or bi-directional for data flow from one table to other). 
--configuring table and column properties under right and top section in model view for tables
+-configuring table and column properties under right and top section in model view for tables. eg:summarisation and categorisation under column tools
 -Build hierarchies (eg: date column- year, month, day etc), calculated columns, and measures.
 -Ensure the model reflects the correct structure for the analysis, aligning dimension tables with fact tables using flat or star or snowflake schemas relevant for the table
 
