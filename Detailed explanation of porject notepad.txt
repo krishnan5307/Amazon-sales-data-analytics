@@ -215,3 +215,20 @@ Column Tools Tab: Configuring column properties – Modeling.
 So, not everything on the top pane is part of Modeling, but Table Tools and Column Tools are closely associated with Modeling tasks, while Home and External Tools serve broader functions.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
